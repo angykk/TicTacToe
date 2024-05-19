@@ -1,0 +1,35 @@
+.cell{
+    width:100px;
+    height:100px;
+    border: 1px solid black;
+    float:left;
+}
+
+.board{
+    margin:auto;
+    width: 320px;
+    height:400px;
+}
+.XO{
+    font-size: 70px;
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.winMessage{
+    font-size: 30px;
+    position: relative;
+
+    margin-left:34%;
+}
+
+.button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
